@@ -29,7 +29,7 @@ def write(data): # 메모장에 데이터 작성
             print(json_string) # type: ignore
 
 
-with open('C:\\Users\\calvi\\OneDrive\\바탕 화면\\코딩\\Korean_JSON_Parse\\전체 내려받기_표준국어대사전_JSON_20230906\\1200922_5000.json', 'rt', encoding="UTF-8") as json_file:
+with open('JSON FILE adress', 'rt', encoding="UTF-8") as json_file:
     json_data = json.load(json_file)
 
 
